@@ -1,0 +1,122 @@
+.colMain .el-checkbox__label {
+    display: none;
+}
+
+.itemCheck .el-checkbox__label {
+    display: none;
+}
+
+
+.unitInfo .el-input.is-disabled .el-input__inner {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(119, 118, 118);
+    color: black;
+}
+
+.unitInfo .el-checkbox__input.is-disabled+span.el-checkbox__label {
+    color: black;
+    /* cursor: not-allowed; */
+}
+
+.unitInfo .el-radio__input.is-disabled+span.el-radio__label {
+    color: black;
+    cursor: not-allowed;
+}
+
+.unitInfo .el-checkbox__input.is-disabled.is-checked .el-checkbox__inner {
+    background-color: #409EFF;
+    border-color: #409EFF;
+}
+
+
+.unitInfo .el-radio__input.is-disabled.is-checked .el-radio__inner {
+    border-color: #409EFF;
+    background-color: #409EFF;
+}
+
+.unitInfo .el-radio__inner:after {
+    background-color: #fff;
+}
+
+
+.intelle1 .el-form-item__content {
+    text-align: left;
+}
+
+
+.logocomment .el-badge__content.is-fixed {
+    top: 20px;
+}
+
+
+.ppjl .selectPc .el-input__inner {
+    line-height: 25px;
+    height: 25px;
+}
+
+.ppjl .selectPc .el-input__icon {
+    line-height: 25px;
+}
+
+
+.backStageMain .KFbigbox .el-dialog__header {
+    background-color: #256BFF;
+    color: white;
+    line-height: 25px;
+    font-size: 13px;
+    padding: 0;
+    height: 45px;
+}
+
+.backStageMain .KFbigbox .el-dialog__header .scxm {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.backStageMain .KFbigbox .el-dialog__header .txImg {
+    width: 18px;
+    height: 18px;
+    margin: 0px 5px 0 15px;
+
+}
+
+.backStageMain .KFbigbox .el-dialog__header .el-dialog__headerbtn{
+    top: 15px;
+}
+
+.backStageMain .KFbigbox .el-dialog__headerbtn .el-dialog__close{
+    color: white !important;
+}
+
+.backStageMain .KFbigbox .el-dialog__body{
+    padding: 0;
+}
+
+
+.estimate .el-card, .el-message{
+    overflow: visible;
+}
+
+.estimate .el-card__body{
+    overflow: visible;
+}
+
+
+/* 步骤条，改变样式 */
+.el-step__head.is-process{
+    color: #409EFF;
+}
+
+.el-step__title.is-process{
+    color: #409EFF;
+}
+
+.el-step__head.is-process{
+    border-color: #409EFF;
+}
+
+.backStageMain .tcBox .el-dialog{
+    text-align: center;
+  }
+

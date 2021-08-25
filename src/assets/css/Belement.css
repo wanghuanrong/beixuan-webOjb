@@ -1,0 +1,23 @@
+.el-textarea .el-textarea__inner {
+    resize: none;
+}
+
+.el-main {
+    line-height: 25px;
+}
+
+.el-alert--error.is-light .el-alert__description {
+    color: #333333;
+}
+
+.yourForm .el-input {
+    width: 350px;
+}
+
+.el-dialog__footer{
+    text-align: center;
+}
+
+.el-card__body{
+    overflow: hidden;
+  }
